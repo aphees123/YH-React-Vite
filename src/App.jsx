@@ -100,9 +100,9 @@ const AuthLayout = () => {
             <div className="hidden lg:flex flex-col items-center justify-center w-1/2 p-12 text-center text-[#008080]">
                 <div className="z-10 relative lg:left-8">
                     <YallaHajiLogo />
-                    <h1 className="mt-6 text-5xl font-bold">Yalla Haji</h1>
-                    <p className="mt-4 text-3xl md:text-4xl lg:text-3xl font-light tracking-tight">Built for growing teams</p>
-                    <p className="mt-2 text-lg md:text-xl text-[#006666]">Your work. Simplified</p>
+                    <h1 className="mt-6 text-4xl  font-baskerville">Yalla Haji</h1>
+                    <p className="mt-4 text-3xl md:text-4xl lg:text-2xl font-light tracking-tight font-baskerville">Built for growing teams</p>
+                    <p className="mt-2 text-lg md:text-l text-[#006666] font-baskerville">Your work. Simplified</p>
                 </div>
             </div>
             <div className="w-full lg:w-1/2 flex items-center justify-center p-4 sm:p-8">
@@ -255,8 +255,8 @@ const LoginPage = () => {
     return (
         <Card>
             <CardHeader>
-                <CardDescription>Built for teams who want to work smarter, not harder.</CardDescription>
-                <h1 className="mt-2 text-2xl font-bold text-[#008080]">Login</h1>
+                <CardDescription className='font-baskerville'>Built for teams who want to work smarter, not harder.</CardDescription>
+                <h1 className="mt-2 text-2xl font-bold text-[#008080] font-baskerville">Login</h1>
             </CardHeader>
             <CardContent>
                 {error && <p className="mb-4 text-center text-red-600 bg-red-100 p-3 rounded-md">{error}</p>}
