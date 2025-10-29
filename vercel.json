@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+      {
+        "source": "/api/:path*",
+        "destination": "http://backend-staging-alb-928761586.ap-southeast-2.elb.amazonaws.com/:path*"
+      }
+    ]
+  }
